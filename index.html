@@ -7,11 +7,22 @@
     <title>Prova Bootstrap</title>
 </head>
 <body>
-    <main>
-      <header>
-
+    <main class="container">
+      <header class="row text-center">
+        <div class="col p-3">
+            <h1>Bootstrap 5 Responsive Grid</h1>
+            <p class="lead">Loyout a griglia con diversi breakpoint (sm,md,lg)</p>
+        </div>
       </header>
-      <section>
+      <section class="row">
+        <div class="col-12 p-3 bg-light col-md-6 col-lg-4">
+            <h2>Colonna 1</h2>
+            <p>Larghezza intera su dispositivi piccoli,metà larghezza su dispositivi medi e un terzo su dispositivi grandi</p>
+        </div>
+        <div class="col-12 p-3 bg-secondary text-white col-md-6 col+lg-8">
+            <h2>Colonna 2</h2>
+            <p>Larghezza intera su dispositivi piccoli,metà larghezza su dispositivi medi e due terzi su dispositivi grandi</p>
+        </div>
 
       </section>
       <section>
